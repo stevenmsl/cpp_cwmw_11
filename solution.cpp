@@ -15,7 +15,10 @@ using namespace std;
 
 /*takeaways
   - use two pointers to achieve time complexity O(n)
-
+  - start from the max width of the container
+    and then shrink it
+  - shrink the side that is shorter as we try to
+    find the max area
 */
 
 int Solution::maxArea(const vector<int> &height)
